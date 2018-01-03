@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR Emrgency Change,Chrome 62.0.3202.89,,2017-11-15 11:49:22,2017-11-15 12:03:57,14m - 35.803s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_Lite_ExpertService,Chrome 62.0.3202.89,,2017-11-15 11:49:22,2017-11-15 11:53:01,3m - 39.095s,FAILED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 11:49:23,2017-11-15 11:49:32,9.190s,PASSED
+com.helper.commonfunct.utilities.createECR,Chrome 62.0.3202.89,,2017-11-15 11:49:32,2017-11-15 11:53:01,3m - 29.124s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_Lite_NoExpertService,Chrome 62.0.3202.89,,2017-11-15 11:53:01,2017-11-15 11:56:14,3m - 12.253s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 11:53:02,2017-11-15 11:53:10,8.588s,PASSED
+com.helper.commonfunct.utilities.createECR,Chrome 62.0.3202.89,,2017-11-15 11:53:10,2017-11-15 11:56:14,3m - 3.495s,PASSED
+,,,,,,
+Test Cases/ECR/REF/ECR_Meeting_ExpertService,Chrome 62.0.3202.89,,2017-11-15 11:56:14,2017-11-15 11:59:24,3m - 10.161s,FAILED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 11:56:14,2017-11-15 11:56:22,7.812s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.89,,2017-11-15 11:56:22,2017-11-15 11:56:22,0.001s,PASSED
+com.helper.commonfunct.utilities.ECRMeeting,Chrome 62.0.3202.89,,2017-11-15 11:56:22,2017-11-15 11:59:24,3m - 2.151s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_Meeting_NoExpertService,Chrome 62.0.3202.89,,2017-11-15 11:59:24,2017-11-15 12:03:55,4m - 30.566s,FAILED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 11:59:24,2017-11-15 11:59:32,7.602s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.89,,2017-11-15 11:59:32,2017-11-15 11:59:32,0.001s,PASSED
+com.helper.commonfunct.utilities.ECRMeeting,Chrome 62.0.3202.89,,2017-11-15 11:59:32,2017-11-15 12:03:55,4m - 22.716s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_NoRL_Approval,Chrome 62.0.3202.89,,2017-11-15 12:03:55,2017-11-15 12:03:56,1.153s,ERROR
+"Statement - While (WOSTATUS.contains(""Pending""))",Chrome 62.0.3202.89,,2017-11-15 12:03:56,2017-11-15 12:03:56,0.079s,PASSED

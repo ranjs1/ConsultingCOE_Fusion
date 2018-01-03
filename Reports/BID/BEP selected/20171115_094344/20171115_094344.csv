@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BEP selected,Chrome 62.0.3202.89,,2017-11-15 09:43:46,2017-11-15 09:52:06,8m - 19.748s,FAILED
+,,,,,,
+Test Cases/BEP/TC_Create_BEP_EmailOutput,Chrome 62.0.3202.89,,2017-11-15 09:43:47,2017-11-15 09:48:01,4m - 14.464s,FAILED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 09:43:48,2017-11-15 09:43:56,8.642s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput,Chrome 62.0.3202.89,,2017-11-15 09:43:56,2017-11-15 09:48:00,4m - 3.751s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.woid,Chrome 62.0.3202.89,,2017-11-15 09:48:00,2017-11-15 09:48:00,0.033s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.WOstatus,Chrome 62.0.3202.89,,2017-11-15 09:48:00,2017-11-15 09:48:00,0.080s,PASSED
+Statement - println(WOID),Chrome 62.0.3202.89,,2017-11-15 09:48:00,2017-11-15 09:48:00,0.000s,PASSED
+acceptAlert,Chrome 62.0.3202.89,,2017-11-15 09:48:00,2017-11-15 09:48:01,0.925s,FAILED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_EmailOutput_SendEmail_CreateECR,Chrome 62.0.3202.89,,2017-11-15 09:48:01,2017-11-15 09:52:05,4m - 3.788s,FAILED
+callTestCase,Chrome 62.0.3202.89,,2017-11-15 09:48:01,2017-11-15 09:52:05,4m - 3.635s,FAILED

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ECR Emrgency Change" time="574" tests="2" failures="2" errors="1">
+   <testsuite name="ECR Emrgency Change" tests="2" failures="2" errors="1" time="574" timestamp="2017-11-15 12:45:38" hostname="nipin - L22622WUS.rpega.com" id="Test Suites/ECR Emrgency Change">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_124535"/>
+         <property name="logFiles" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_124535\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_124535\\1510768335683.png, C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_124535\\1510768510298.png"/>
+         <property name="hostName" value="nipin - L22622WUS.rpega.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.89"/>
+         <property name="hostAddress" value="10.2.176.77"/>
+         <property name="sessionId" value="bac114620df13d8bc786dd4a7603f117"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ECR/REF/ECR_Lite_ExpertService" classname="Test Cases/ECR/REF/ECR_Lite_ExpertService" status="PASSED">
+         <system-out><![CDATA[2017-11-15 12:45:38 - [TEST_CASE][PASSED] - Test Cases/ECR/REF/ECR_Lite_ExpertService: Test Cases/ECR/REF/ECR_Lite_ExpertService
+
+2017-11-15 12:45:39 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:45:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 12:45:45 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 12:45:46 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 12:45:46 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 12:45:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 12:45:49 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:45:49 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.createECR: com.helper.commonfunct.utilities.createECR is PASSED
+
+2017-11-15 12:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 12:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 12:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Bid Process' is clicked on
+
+2017-11-15 12:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/BID_TYPE' is clicked on
+
+2017-11-15 12:45:53 - [MESSAGE][PASSED] - Object 'Object Repository/button_Import' is present
+
+2017-11-15 12:45:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Import' is clicked on
+
+2017-11-15 12:45:59 - [MESSAGE][PASSED] - File 'C:\Users\nipin\Desktop\Latest BSW\ECR_LITE_EXPSVC.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-15 12:46:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 12:46:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_Submit' successfully
+
+2017-11-15 12:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-15 12:46:05 - [MESSAGE][PASSED] - Object 'Object Repository/EngInfo/COID' is visible
+
+2017-11-15 12:46:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:15 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-15 12:46:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:21 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-15 12:46:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:26 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-15 12:46:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:31 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-15 12:46:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:36 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-15 12:46:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 12:46:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2017-11-15 12:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2017-11-15 12:46:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:47 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2017-11-15 12:46:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 12:46:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/gapDrivenMethodology' is clicked on
+
+2017-11-15 12:46:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/RapidDelivery' is clicked on
+
+2017-11-15 12:47:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/MorethanOneRLS' is clicked on
+
+2017-11-15 12:47:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:10 - [MESSAGE][PASSED] - Text '85000' is set on object 'Object Repository/ECR/Licence'
+
+2017-11-15 12:47:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/platform' is visible
+
+2017-11-15 12:47:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-15 12:47:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:26 - [MESSAGE][PASSED] - Keys 'AMPchroma' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-15 12:47:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-15 12:47:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:36 - [MESSAGE][PASSED] - Keys 'N/A' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-15 12:47:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-15 12:47:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-15 12:47:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:47:57 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-15 12:48:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-15 12:48:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:08 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-15 12:48:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RL' is clicked on
+
+2017-11-15 12:48:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:18 - [MESSAGE][PASSED] - Keys 'Eric Panepinto' sent to object: 'Object Repository/EngInfo/RL'
+
+2017-11-15 12:48:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RD' is clicked on
+
+2017-11-15 12:48:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:29 - [MESSAGE][PASSED] - Keys 'Robert Lang' sent to object: 'Object Repository/EngInfo/RD'
+
+2017-11-15 12:48:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:48:41 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 12:48:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:48:48 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 12:48:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:48:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2017-11-15 12:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2017-11-15 12:48:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:48:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/WO' is: 'ECR-15Nov2017-18'
+
+2017-11-15 12:48:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Pending-RDApproval'
+
+2017-11-15 12:48:54 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.createECR is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_Lite_NoExpertService" classname="Test Cases/ECR/REF/ECR_Lite_NoExpertService" status="PASSED">
+         <system-out><![CDATA[2017-11-15 12:48:54 - [TEST_CASE][PASSED] - Test Cases/ECR/REF/ECR_Lite_NoExpertService: Test Cases/ECR/REF/ECR_Lite_NoExpertService
+
+2017-11-15 12:48:54 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:48:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-15 12:48:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 12:48:58 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 12:48:59 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 12:48:59 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 12:49:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 12:49:03 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:49:03 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.createECR: com.helper.commonfunct.utilities.createECR is PASSED
+
+2017-11-15 12:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 12:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 12:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Bid Process' is clicked on
+
+2017-11-15 12:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/BID_TYPE' is clicked on
+
+2017-11-15 12:49:05 - [MESSAGE][PASSED] - Object 'Object Repository/button_Import' is present
+
+2017-11-15 12:49:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Import' is clicked on
+
+2017-11-15 12:49:11 - [MESSAGE][PASSED] - File 'C:\LatestBSW\BSW OCT 2017_ECRLite.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-15 12:49:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 12:49:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_Submit' successfully
+
+2017-11-15 12:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-15 12:49:16 - [MESSAGE][PASSED] - Object 'Object Repository/EngInfo/COID' is visible
+
+2017-11-15 12:49:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:27 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-15 12:49:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:32 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-15 12:49:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:37 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-15 12:49:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:42 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-15 12:49:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:47 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-15 12:49:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 12:49:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2017-11-15 12:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2017-11-15 12:49:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:49:58 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2017-11-15 12:50:05 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 12:50:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/gapDrivenMethodology' is clicked on
+
+2017-11-15 12:50:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/RapidDelivery' is clicked on
+
+2017-11-15 12:50:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/MorethanOneRLS' is clicked on
+
+2017-11-15 12:50:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:21 - [MESSAGE][PASSED] - Text '85000' is set on object 'Object Repository/ECR/Licence'
+
+2017-11-15 12:50:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/platform' is visible
+
+2017-11-15 12:50:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-15 12:50:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:37 - [MESSAGE][PASSED] - Keys 'AMPchroma' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-15 12:50:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-15 12:50:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:47 - [MESSAGE][PASSED] - Keys 'N/A' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-15 12:50:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-15 12:50:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-15 12:51:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:08 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-15 12:51:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-15 12:51:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:18 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-15 12:51:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RL' is clicked on
+
+2017-11-15 12:51:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:29 - [MESSAGE][PASSED] - Keys 'Eric Panepinto' sent to object: 'Object Repository/EngInfo/RL'
+
+2017-11-15 12:51:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RD' is clicked on
+
+2017-11-15 12:51:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:40 - [MESSAGE][PASSED] - Keys 'Robert Lang' sent to object: 'Object Repository/EngInfo/RD'
+
+2017-11-15 12:51:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:51:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:51:53 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 12:51:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:52:00 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 12:52:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:52:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2017-11-15 12:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2017-11-15 12:52:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:52:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/WO' is: 'ECR-15Nov2017-19'
+
+2017-11-15 12:52:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Pending-RDApproval'
+
+2017-11-15 12:52:05 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.createECR is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_Meeting_ExpertService" classname="Test Cases/ECR/REF/ECR_Meeting_ExpertService" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)"/>
+         <system-out><![CDATA[2017-11-15 12:52:06 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_ExpertService: Test Cases/ECR/REF/ECR_Meeting_ExpertService FAILED because (of) Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)
+
+2017-11-15 12:52:06 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:52:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-15 12:52:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 12:52:10 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 12:52:10 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 12:52:10 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 12:52:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 12:52:14 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:52:14 - [TEST_STEP][PASSED] - Statement - Meeting = true: null
+
+2017-11-15 12:52:14 - [TEST_STEP][FAILED] - com.helper.commonfunct.utilities.ECRMeeting: Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)
+
+2017-11-15 12:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 12:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 12:52:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)
+[[ATTACHMENT|C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_124535\\1510768335683.png]]
+
+2017-11-15 12:52:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)]]></system-out>
+         <system-err><![CDATA[2017-11-15 12:52:06 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_ExpertService: Test Cases/ECR/REF/ECR_Meeting_ExpertService FAILED because (of) Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_Meeting_NoExpertService" classname="Test Cases/ECR/REF/ECR_Meeting_NoExpertService" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/EngInfo/AE' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir16060_20227}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bac114620df13d8bc786dd4a7603f117)"/>
+         <system-out><![CDATA[2017-11-15 12:52:16 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_NoExpertService: Test Cases/ECR/REF/ECR_Meeting_NoExpertService FAILED because (of) Unable to set text '' of object 'Object Repository/EngInfo/AE' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir16060_20227}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bac114620df13d8bc786dd4a7603f117)
+
+2017-11-15 12:52:16 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:52:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-15 12:52:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 12:52:20 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 12:52:20 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 12:52:21 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 12:52:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 12:52:24 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 12:52:24 - [TEST_STEP][PASSED] - Statement - Meeting = true: null
+
+2017-11-15 12:52:24 - [TEST_STEP][FAILED] - com.helper.commonfunct.utilities.ECRMeeting: Unable to set text '' of object 'Object Repository/EngInfo/AE' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir16060_20227}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bac114620df13d8bc786dd4a7603f117)
+
+2017-11-15 12:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 12:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 12:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Bid Process' is clicked on
+
+2017-11-15 12:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/BID_TYPE' is clicked on
+
+2017-11-15 12:52:27 - [MESSAGE][PASSED] - Object 'Object Repository/button_Import' is present
+
+2017-11-15 12:52:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Import' is clicked on
+
+2017-11-15 12:52:33 - [MESSAGE][PASSED] - File 'C:\Users\nipin\Desktop\Latest BSW\ECR_WITH_MEETING.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-15 12:52:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:52:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 12:52:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_Submit' successfully
+
+2017-11-15 12:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-15 12:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/EngInfo/COID' is visible
+
+2017-11-15 12:52:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:52:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:52:49 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-15 12:52:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:52:54 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-15 12:52:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:52:59 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-15 12:52:59 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-15 12:53:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:05 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-15 12:53:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2017-11-15 12:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2017-11-15 12:53:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:53:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:19 - [MESSAGE][PASSED] - Text 'CO-123' is set on object 'Object Repository/EngInfo/COID'
+
+2017-11-15 12:53:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:53:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-15 12:53:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:30 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-15 12:53:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-15 12:53:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:40 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-15 12:53:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RL' is clicked on
+
+2017-11-15 12:53:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:51 - [MESSAGE][PASSED] - Keys 'Eric Panepinto' sent to object: 'Object Repository/EngInfo/RL'
+
+2017-11-15 12:53:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RD' is clicked on
+
+2017-11-15 12:54:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:01 - [MESSAGE][PASSED] - Keys 'Robert Lang' sent to object: 'Object Repository/EngInfo/RD'
+
+2017-11-15 12:54:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/MorethanOneRLS' is clicked on
+
+2017-11-15 12:54:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/RapidDelivery' is clicked on
+
+2017-11-15 12:54:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/methodology' is clicked on
+
+2017-11-15 12:54:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:27 - [MESSAGE][PASSED] - Text '85000' is set on object 'Object Repository/ECR/Licence'
+
+2017-11-15 12:54:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-15 12:54:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:38 - [MESSAGE][PASSED] - Keys 'Accessibility' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-15 12:54:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-15 12:54:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:48 - [MESSAGE][PASSED] - Keys 'Accessibility Framework' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-15 12:54:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-15 12:54:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:54:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:54:59 - [MESSAGE][PASSED] - Text '12/6/2017 11:27 AM' is set on object 'Object Repository/EngInfo/MeetingDate'
+
+2017-11-15 12:55:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:55:05 - [MESSAGE][PASSED] - Text 'TEsting' is set on object 'Object Repository/EngInfo/instruction'
+
+2017-11-15 12:55:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:55:10 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/EngInfo/AE' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir16060_20227}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bac114620df13d8bc786dd4a7603f117)
+[[ATTACHMENT|C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_124535\\1510768510298.png]]
+
+2017-11-15 12:55:10 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/EngInfo/AE' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir16060_20227}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bac114620df13d8bc786dd4a7603f117)]]></system-out>
+         <system-err><![CDATA[2017-11-15 12:52:16 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_NoExpertService: Test Cases/ECR/REF/ECR_Meeting_NoExpertService FAILED because (of) Unable to set text '' of object 'Object Repository/EngInfo/AE' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir16060_20227}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bac114620df13d8bc786dd4a7603f117)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_NoRL_Approval" classname="Test Cases/ECR/REF/ECR_NoRL_Approval" status="ERROR">
+         <error type="ERROR" message="Test Cases/ECR/REF/ECR_NoRL_Approval FAILED because (of) org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver"/>
+         <system-out><![CDATA[2017-11-15 12:55:10 - [TEST_CASE][ERROR] - Test Cases/ECR/REF/ECR_NoRL_Approval: Test Cases/ECR/REF/ECR_NoRL_Approval FAILED because (of) org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver
+
+2017-11-15 12:55:11 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("Pending")): null
+
+2017-11-15 12:55:11 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < AssignmentList.size(), (j++)]): null
+
+2017-11-15 12:55:11 - [TEST_STEP][PASSED] - Statement - Status = text: null]]></system-out>
+         <system-err><![CDATA[2017-11-15 12:55:10 - [TEST_CASE][ERROR] - Test Cases/ECR/REF/ECR_NoRL_Approval: Test Cases/ECR/REF/ECR_NoRL_Approval FAILED because (of) org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-15 12:45:38 - [TEST_SUITE][FAILED] - ECR Emrgency Change: Test Cases/ECR/REF/ECR_Meeting_ExpertService FAILED because (of) Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)]]></system-out>
+      <system-err><![CDATA[2017-11-15 12:45:38 - [TEST_SUITE][FAILED] - ECR Emrgency Change: Test Cases/ECR/REF/ECR_Meeting_ExpertService FAILED because (of) Unable to click on object 'Object Repository/span_Bid Process' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\nipin\AppData\Local\Temp\scoped_dir13904_27588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 20498a016aff823be198dbc7c1d751d1)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Estimate</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-01-02T13:17:21</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>89abbd1a-3fbf-4b02-b8ab-9cc3607195ea</testSuiteGuid>
+   <testCaseLink>
+      <guid>9d23c63e-929d-4a6c-85e5-b40ff036ce40</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BEP/Create_Approve_Reject/Create_BEP_NoOutput</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>324a164f-86f6-4b0d-9a35-df027b9257a1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EstimateTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FileLocation</value>
+         <variableId>d7eb823d-ddda-41c5-9dcb-9751c050595b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Organization</value>
+         <variableId>1edee68c-2173-4306-ab34-5bbb46cf7a42</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Account</value>
+         <variableId>b0d7aaaf-01cb-439a-b723-131c3e57abef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Regional Directior</value>
+         <variableId>d5d652b1-182d-49d7-b0af-c66d57269a9d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Regional Leader</value>
+         <variableId>f6f4413f-0618-4735-9a4c-b25e946b8b44</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PracticeLeader</value>
+         <variableId>58edf5e9-aa6a-4164-8999-4f7d1efd4766</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseID</value>
+         <variableId>e384bb8b-4b00-4143-8fd2-ad872a06e14f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>324a164f-86f6-4b0d-9a35-df027b9257a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PracticeTeamLeader</value>
+         <variableId>368a252a-e054-47b0-b85b-326da7373a87</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
