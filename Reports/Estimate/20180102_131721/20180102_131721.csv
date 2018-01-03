@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Estimate,Chrome 63.0.3239.84,,2018-01-02 13:17:24,2018-01-02 13:24:06,6m - 41.731s,FAILED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/Create_BEP_NoOutput - Iteration 1,Chrome 63.0.3239.84,,2018-01-02 13:17:25,2018-01-02 13:21:15,3m - 49.430s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 63.0.3239.84,,2018-01-02 13:17:26,2018-01-02 13:17:36,9.369s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.EstimateNoOutput,Chrome 63.0.3239.84,,2018-01-02 13:17:36,2018-01-02 13:21:06,3m - 30.601s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.woid,Chrome 63.0.3239.84,,2018-01-02 13:21:06,2018-01-02 13:21:06,0.004s,NOT_RUN
+com.helper.commonfunct.BEP_CommonMethod.searchStatus,Chrome 63.0.3239.84,,2018-01-02 13:21:06,2018-01-02 13:21:15,8.250s,PASSED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/Create_BEP_NoOutput - Iteration 2,Chrome 63.0.3239.84,,2018-01-02 13:21:15,2018-01-02 13:22:49,1m - 34.438s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 63.0.3239.84,,2018-01-02 13:21:15,2018-01-02 13:21:22,7.176s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.EstimateNoOutput,Chrome 63.0.3239.84,,2018-01-02 13:21:22,2018-01-02 13:22:49,1m - 27.238s,FAILED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/Create_BEP_NoOutput - Iteration 3,Chrome 63.0.3239.84,,2018-01-02 13:22:49,2018-01-02 13:24:05,1m - 15.924s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 63.0.3239.84,,2018-01-02 13:22:49,2018-01-02 13:22:56,6.970s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.EstimateNoOutput,Chrome 63.0.3239.84,,2018-01-02 13:22:56,2018-01-02 13:24:05,1m - 8.919s,FAILED

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ECR_Meetiing</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>00110213-7740-4f20-8d7e-3ee37e14a720</testSuiteGuid>
+   <testCaseLink>
+      <guid>293a8854-4b14-47e7-a7fa-c04d5f6d3e2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ECR/TestCases/TC_ECR_Meeting_ExpertService_AllApproval</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40b5a16f-0549-4a5e-b237-a6a8e0712081</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ECR/TestCases/TC_ECR_Meeting_ExpertService_AllReject</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b61ee84c-4afd-40da-800b-d1f3c3b7630b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ECR/TestCases/TC_ECR_Meeting_NoExpertService_AllApproval</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>941b0763-681a-4e86-8661-0a29b208a1bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ECR/TestCases/TC_ECR_Meeting_NoExpertService_AllReject</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92461066-2de1-4786-9359-c1d1580b8f9e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ECR/TestCases/TC_ECR_NoMeeting_NoRoutingToRL_AllApproval</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c2777ba-dcd3-4a3e-a44e-bf7dfe5decf4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c0eeeed5-4ad7-4382-8c5c-f6fa9ec12828</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ed94c23-34ec-49b9-af3a-1e835ad243b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e54cbbc-da7d-4d05-a5eb-ea89fde519ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a80a2f57-afbd-49b7-939e-6b199335a860</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c0e72fd-bdbe-4f93-9737-91153beb87a7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

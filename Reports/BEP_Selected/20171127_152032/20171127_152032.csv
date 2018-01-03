@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BEP_Selected,Chrome 62.0.3202.94,,2017-11-27 15:20:34,2017-11-27 15:30:17,9m - 42.531s,FAILED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_NoroutingToRL,Chrome 62.0.3202.94,,2017-11-27 15:20:34,2017-11-27 15:25:55,5m - 20.383s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 15:20:35,2017-11-27 15:24:22,3m - 47.161s,PASSED
+Statement - RDReject = 1,Chrome 62.0.3202.94,,2017-11-27 15:24:22,2017-11-27 15:24:22,0.001s,NOT_RUN
+Statement - RouteToRL = false,Chrome 62.0.3202.94,,2017-11-27 15:24:22,2017-11-27 15:24:22,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 15:24:22,2017-11-27 15:25:55,1m - 32.535s,PASSED
+,,,,,,
+Test Cases/BEP/TC_RLMeetingRequest_CancelMeeting,Chrome 62.0.3202.94,,2017-11-27 15:25:55,2017-11-27 15:30:15,4m - 20.628s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 15:25:55,2017-11-27 15:30:15,4m - 20.315s,FAILED

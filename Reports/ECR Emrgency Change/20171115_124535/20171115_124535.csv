@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR Emrgency Change,Chrome 62.0.3202.89,,2017-11-15 12:45:38,2017-11-15 12:55:12,9m - 34.192s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_Lite_ExpertService,Chrome 62.0.3202.89,,2017-11-15 12:45:38,2017-11-15 12:48:54,3m - 15.287s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 12:45:39,2017-11-15 12:45:49,10.127s,PASSED
+com.helper.commonfunct.utilities.createECR,Chrome 62.0.3202.89,,2017-11-15 12:45:49,2017-11-15 12:48:54,3m - 4.319s,PASSED
+,,,,,,
+Test Cases/ECR/REF/ECR_Lite_NoExpertService,Chrome 62.0.3202.89,,2017-11-15 12:48:54,2017-11-15 12:52:05,3m - 11.643s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 12:48:54,2017-11-15 12:49:03,8.519s,PASSED
+com.helper.commonfunct.utilities.createECR,Chrome 62.0.3202.89,,2017-11-15 12:49:03,2017-11-15 12:52:05,3m - 2.901s,PASSED
+,,,,,,
+Test Cases/ECR/REF/ECR_Meeting_ExpertService,Chrome 62.0.3202.89,,2017-11-15 12:52:06,2017-11-15 12:52:16,10.140s,FAILED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 12:52:06,2017-11-15 12:52:14,8.063s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.89,,2017-11-15 12:52:14,2017-11-15 12:52:14,0.001s,PASSED
+com.helper.commonfunct.utilities.ECRMeeting,Chrome 62.0.3202.89,,2017-11-15 12:52:14,2017-11-15 12:52:16,1.862s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_Meeting_NoExpertService,Chrome 62.0.3202.89,,2017-11-15 12:52:16,2017-11-15 12:55:10,2m - 54.465s,FAILED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-15 12:52:16,2017-11-15 12:52:24,8.364s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.89,,2017-11-15 12:52:24,2017-11-15 12:52:24,0.000s,PASSED
+com.helper.commonfunct.utilities.ECRMeeting,Chrome 62.0.3202.89,,2017-11-15 12:52:24,2017-11-15 12:55:10,2m - 45.891s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_NoRL_Approval,Chrome 62.0.3202.89,,2017-11-15 12:55:10,2017-11-15 12:55:11,0.614s,ERROR
+"Statement - While (WOSTATUS.contains(""Pending""))",Chrome 62.0.3202.89,,2017-11-15 12:55:11,2017-11-15 12:55:11,0.017s,PASSED

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ESD Control Case for Week of</name>
+   <tag></tag>
+   <elementGuidId>479bd2ee-5170-4654-bdb8-b7cdb8719524</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>2016102704233605307930</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>pd(event);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctl</name>
+      <type>Main</type>
+      <value>Link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;openWorkByHandle&quot;,[&quot;GS-OPS-DELTA-WORK ESD-20171107-1&quot;,&quot;&quot;,&quot;9424cb33-e311-2897-3a93-5bc04fcda31d&quot;,&quot;ea116240-74c5-4e95-b65b-4856fb4df9a1&quot;,&quot;true&quot;,&quot;&quot;]],[&quot;runScript&quot;, [&quot;removeScreenLayoutMask()&quot;]]]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>ESD Control Case for Week of Nov 06, 2017</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Primary_Navigation_Link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ESD Control Case for Week of Nov 06, 2017</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$PDeclare_pxRecents_pa542098521265943pz$ppxResults$l1&quot;)/td[@class=&quot;gridCell    gridCellSelected&quot;]/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-coe_recent_menu_list clear-floated-layouts&quot;]/div[@class=&quot;layout-body clearfix&quot;]/div[@class=&quot;content   layout-content-simple_list content-simple_list  clearfix&quot;]/div[@class=&quot;content-item content-field item-1&quot;]/div[@class=&quot;content-inner&quot;]/div[@class=&quot;field-item dataValueRead&quot;]/span[1]/a[@class=&quot;Primary_Navigation_Link&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

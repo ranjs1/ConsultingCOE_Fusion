@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECRCreate,Chrome 62.0.3202.94,,2017-11-16 23:17:55,2017-11-16 23:30:22,12m - 26.822s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_Meeting_ExpertService,Chrome 62.0.3202.94,,2017-11-16 23:17:55,2017-11-16 23:22:30,4m - 34.473s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-16 23:17:56,2017-11-16 23:18:23,26.733s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.94,,2017-11-16 23:18:23,2017-11-16 23:18:23,0.005s,PASSED
+com.helper.commonfunct.utilities.ECRMeeting,Chrome 62.0.3202.94,,2017-11-16 23:18:23,2017-11-16 23:22:30,4m - 6.964s,PASSED
+,,,,,,
+Test Cases/ECR/REF/ECR_Meeting_NoExpertService,Chrome 62.0.3202.94,,2017-11-16 23:22:30,2017-11-16 23:27:04,4m - 34.357s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-16 23:22:30,2017-11-16 23:23:02,32.267s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.94,,2017-11-16 23:23:02,2017-11-16 23:23:02,0.001s,PASSED
+com.helper.commonfunct.utilities.ECRMeeting,Chrome 62.0.3202.94,,2017-11-16 23:23:02,2017-11-16 23:27:04,4m - 1.874s,PASSED
+,,,,,,
+Test Cases/ECR/REF/ECR_Lite_ExpertService,Chrome 62.0.3202.94,,2017-11-16 23:27:04,2017-11-16 23:30:04,3m - 0.156s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-16 23:27:04,2017-11-16 23:27:28,23.633s,PASSED
+com.helper.commonfunct.utilities.createECR,Chrome 62.0.3202.94,,2017-11-16 23:27:28,2017-11-16 23:30:04,2m - 36.283s,PASSED
+,,,,,,
+Test Cases/ECR/REF/ECR_Lite_NoExpertService,Chrome 62.0.3202.94,,2017-11-16 23:30:04,2017-11-16 23:30:20,15.890s,FAILED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-16 23:30:04,2017-11-16 23:30:20,15.624s,PASSED
+com.helper.commonfunct.utilities.createECR,Chrome 62.0.3202.94,,2017-11-16 23:30:20,2017-11-16 23:30:20,0.065s,FAILED
+,,,,,,
+Test Cases/ECR/REF/ECR_NoRL_Approval,Chrome 62.0.3202.94,,2017-11-16 23:30:20,2017-11-16 23:30:21,0.682s,ERROR
+"Statement - While (WOSTATUS.contains(""Pending""))",Chrome 62.0.3202.94,,2017-11-16 23:30:21,2017-11-16 23:30:21,0.020s,PASSED

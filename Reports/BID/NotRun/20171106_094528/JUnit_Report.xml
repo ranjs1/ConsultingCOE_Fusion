@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NotRun" time="804" tests="2" failures="0" errors="0">
+   <testsuite name="NotRun" tests="2" failures="0" errors="0" time="804" timestamp="2017-11-06 09:45:31" hostname="nipin - L22622WUS.rpega.com" id="Test Suites/BID/NotRun">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\BID\\NotRun\\20171106_094528"/>
+         <property name="logFiles" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\BID\\NotRun\\20171106_094528\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nipin - L22622WUS.rpega.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="10.2.176.41"/>
+         <property name="sessionId" value="b5706f67de188381029d15cbe35c2735"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR" classname="Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR" status="PASSED">
+         <system-out><![CDATA[2017-11-06 09:45:31 - [TEST_CASE][PASSED] - Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR: Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR
+
+2017-11-06 09:45:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/BEP/TC_Create_BEP_EmailOutput' successfully
+
+2017-11-06 09:45:32 - [TEST_CASE][PASSED] - Test Cases/BEP/TC_Create_BEP_EmailOutput: Test Cases/BEP/TC_Create_BEP_EmailOutput
+
+2017-11-06 09:45:32 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:45:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:45:37 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:45:38 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:45:38 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:45:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:45:41 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:45:41 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput: com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput is PASSED
+
+2017-11-06 09:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-06 09:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-06 09:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/EstimateLink' is clicked on
+
+2017-11-06 09:45:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:45:50 - [MESSAGE][PASSED] - Object 'Object Repository/BEP/import' is visible
+
+2017-11-06 09:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/import' is clicked on
+
+2017-11-06 09:45:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:45:56 - [MESSAGE][PASSED] - File 'C:\EStimate.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-06 09:46:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-06 09:46:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-06 09:46:12 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-06 09:46:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:17 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-06 09:46:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:22 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-06 09:46:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:27 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-06 09:46:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:32 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-06 09:46:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-06 09:46:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:43 - [MESSAGE][PASSED] - Keys 'Accessibility' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-06 09:46:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-06 09:46:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:53 - [MESSAGE][PASSED] - Keys 'Accessibility Framework' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-06 09:46:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:46:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/MorethanOneRLSNO' successfully
+
+2017-11-06 09:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/MorethanOneRLSNO' is clicked on
+
+2017-11-06 09:47:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-06 09:47:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-06 09:47:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:19 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-06 09:47:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-06 09:47:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:30 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-06 09:47:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:47:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:40 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/DurationLow'
+
+2017-11-06 09:47:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:45 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BEP/DurationLow'
+
+2017-11-06 09:47:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:51 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/DurationHigh'
+
+2017-11-06 09:47:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:47:56 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BEP/DurationHigh'
+
+2017-11-06 09:48:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:01 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/PartnerHoursLow'
+
+2017-11-06 09:48:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:06 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BEP/PartnerHoursLow'
+
+2017-11-06 09:48:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:12 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/PartnerHoursHigh'
+
+2017-11-06 09:48:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/EstimationMethod' is clicked on
+
+2017-11-06 09:48:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:22 - [MESSAGE][PASSED] - Keys 'BSW' sent to object: 'Object Repository/BEP/EstimationMethod'
+
+2017-11-06 09:48:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/routeToRL' is clicked on
+
+2017-11-06 09:48:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:48:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/BEPOutputEmail' is clicked on
+
+2017-11-06 09:48:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RECEIPIENT' is clicked on
+
+2017-11-06 09:48:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/AddEmailID' is clicked on
+
+2017-11-06 09:48:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:48:54 - [MESSAGE][PASSED] - Keys 'nagaveni.nipinale@in.pega.com' sent to object: 'Object Repository/BEP/MAILID_XPATH'
+
+2017-11-06 09:48:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/modal_submit' is clicked on
+
+2017-11-06 09:49:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:05 - [MESSAGE][PASSED] - Keys 'Test Automation' sent to object: 'Object Repository/BEP/Email_Subject'
+
+2017-11-06 09:49:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:49:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2017-11-06 09:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2017-11-06 09:49:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/BEPWOID' is: 'BEP-06Nov2017-38'
+
+2017-11-06 09:49:15 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput is PASSED
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.woid: com.helper.commonfunct.BEP_CommonMethod.woid is PASSED
+
+2017-11-06 09:49:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/BEPWOID' is: 'BEP-06Nov2017-38'
+
+2017-11-06 09:49:15 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.woid is PASSED
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.WOstatus: com.helper.commonfunct.BEP_CommonMethod.WOstatus is PASSED
+
+2017-11-06 09:49:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/WOSTATUS' is: 'Pending-RDApproval'
+
+2017-11-06 09:49:15 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.WOstatus is PASSED
+
+2017-11-06 09:49:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/BEP/TC_Create_BEP_EmailOutput' successfully
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - Statement - SendEmail = false: null
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - Statement - CreateECR = true: null
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/BEP/All_Approval_Reject' successfully
+
+2017-11-06 09:49:15 - [TEST_CASE][PASSED] - Test Cases/BEP/All_Approval_Reject: Test Cases/BEP/All_Approval_Reject
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("Pending")): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < AssignmentList.size(), (j++)]): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:49:15 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2017-11-06 09:49:16 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2017-11-06 09:49:16 - [TEST_STEP][PASSED] - Statement - If (WOSTATUS == "Pending-RDApproval"): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:49:16 - [TEST_STEP][PASSED] - Statement - If (RDReject == false): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:49:16 - [TEST_STEP][PASSED] - Statement - If (RouteToRL == true): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:49:16 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:49:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-06 09:49:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:49:19 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:49:20 - [MESSAGE][PASSED] - Text 'langr1@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:49:20 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:49:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:49:23 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:49:23 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.search: com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:49:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 09:49:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:30 - [MESSAGE][PASSED] - Text 'BEP-06Nov2017-38' is set on object 'Object Repository/EngInfo/search'
+
+2017-11-06 09:49:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2017-11-06 09:49:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:40 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:49:40 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RDapprove: com.helper.commonfunct.BEP_CommonMethod.RDapprove is PASSED
+
+2017-11-06 09:49:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RDLink' is clicked on
+
+2017-11-06 09:49:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:49:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:49:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/RD_RLApprove' successfully
+
+2017-11-06 09:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RD_RLApprove' is clicked on
+
+2017-11-06 09:50:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:02 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/BEP/BEP_CASENOTES'
+
+2017-11-06 09:50:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:50:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/FINISH_ASSIGNMENT' successfully
+
+2017-11-06 09:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/FINISH_ASSIGNMENT' is clicked on
+
+2017-11-06 09:50:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:12 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RDapprove is PASSED
+
+2017-11-06 09:50:12 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.WOstatus: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:50:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Pending-RLApproval'
+
+2017-11-06 09:50:12 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:50:12 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2017-11-06 09:50:12 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2017-11-06 09:50:12 - [TEST_STEP][PASSED] - Statement - If (WOSTATUS == "Pending-RDApproval"): null
+
+2017-11-06 09:50:12 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-RLApproval"): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:50:12 - [TEST_STEP][PASSED] - Statement - If (RLReject == false): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:50:12 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:50:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-06 09:50:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:50:16 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:50:16 - [MESSAGE][PASSED] - Text 'panee@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:50:17 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:50:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:50:19 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:50:19 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.search: com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:50:21 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 09:50:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:26 - [MESSAGE][PASSED] - Text 'BEP-06Nov2017-38' is set on object 'Object Repository/EngInfo/search'
+
+2017-11-06 09:50:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2017-11-06 09:50:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:36 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:50:36 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RLapprove: com.helper.commonfunct.BEP_CommonMethod.RLapprove is PASSED
+
+2017-11-06 09:50:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RlLink' is clicked on
+
+2017-11-06 09:50:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:50:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:50:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:50:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/RD_RLApprove' successfully
+
+2017-11-06 09:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RD_RLApprove' is clicked on
+
+2017-11-06 09:50:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:00 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/BEP/BEP_CASENOTES'
+
+2017-11-06 09:51:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:51:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/FINISH_ASSIGNMENT' successfully
+
+2017-11-06 09:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/FINISH_ASSIGNMENT' is clicked on
+
+2017-11-06 09:51:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/WOSTATUS' is: 'Pending-EmailCustomer'
+
+2017-11-06 09:51:10 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RLapprove is PASSED
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.WOstatus: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:51:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Pending-EmailCustomer'
+
+2017-11-06 09:51:10 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < AssignmentList.size(), (j++)]): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - If (WOSTATUS == "Pending-RDApproval"): null
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-RLApproval"): null
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-Update"): null
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-Meeting"): null
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-EmailCustomer"): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - If (SendEmail == true): null
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - Statement - Else: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:51:10 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:51:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-06 09:51:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:51:14 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:51:14 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:51:15 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:51:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:51:18 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:51:18 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.search: com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:51:19 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 09:51:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:24 - [MESSAGE][PASSED] - Text 'BEP-06Nov2017-38' is set on object 'Object Repository/EngInfo/search'
+
+2017-11-06 09:51:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2017-11-06 09:51:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:34 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:51:34 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.SkipEmail: com.helper.commonfunct.BEP_CommonMethod.SkipEmail is PASSED
+
+2017-11-06 09:51:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/SendCustomerEmail' is clicked on
+
+2017-11-06 09:51:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/ECR_CHECKBOX' is clicked on
+
+2017-11-06 09:51:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/SKIP_EMAIL_XPATH' is clicked on
+
+2017-11-06 09:51:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:51:56 - [MESSAGE][PASSED] - Keys 'testing' sent to object: 'Object Repository/BEP/DispositionReason'
+
+2017-11-06 09:52:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:52:01 - [MESSAGE][PASSED] - All options with value 'RFP in process' are selected in object 'Object Repository/BEP/ReasonCode' 
+
+2017-11-06 09:52:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/test' is clicked on
+
+2017-11-06 09:52:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/Modal_OK' is clicked on
+
+2017-11-06 09:52:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:52:17 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.SkipEmail is PASSED
+
+2017-11-06 09:52:17 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.WOstatus: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:52:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Resolved-Approved'
+
+2017-11-06 09:52:18 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:52:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/BEP/All_Approval_Reject' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_NOECR" classname="Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_NOECR" status="PASSED">
+         <system-out><![CDATA[2017-11-06 09:52:18 - [TEST_CASE][PASSED] - Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_NOECR: Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_NOECR
+
+2017-11-06 09:52:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/BEP/TC_Create_BEP_EmailOutput' successfully
+
+2017-11-06 09:52:18 - [TEST_CASE][PASSED] - Test Cases/BEP/TC_Create_BEP_EmailOutput: Test Cases/BEP/TC_Create_BEP_EmailOutput
+
+2017-11-06 09:52:18 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:52:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-06 09:52:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:52:22 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:52:23 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:52:23 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:52:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:52:26 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:52:26 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput: com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput is PASSED
+
+2017-11-06 09:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-06 09:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-06 09:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/EstimateLink' is clicked on
+
+2017-11-06 09:52:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:52:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/BEP/import' is visible
+
+2017-11-06 09:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/import' is clicked on
+
+2017-11-06 09:52:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:52:41 - [MESSAGE][PASSED] - File 'C:\EStimate.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-06 09:52:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-06 09:52:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-06 09:52:57 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-06 09:53:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:02 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-06 09:53:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:07 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-06 09:53:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:12 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-06 09:53:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:17 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-06 09:53:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-06 09:53:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:28 - [MESSAGE][PASSED] - Keys 'Accessibility' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-06 09:53:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-06 09:53:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:38 - [MESSAGE][PASSED] - Keys 'Accessibility Framework' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-06 09:53:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/MorethanOneRLSNO' successfully
+
+2017-11-06 09:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/MorethanOneRLSNO' is clicked on
+
+2017-11-06 09:53:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-06 09:53:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-06 09:54:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:04 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-06 09:54:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-06 09:54:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:15 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-06 09:54:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:54:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:25 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/DurationLow'
+
+2017-11-06 09:54:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:30 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BEP/DurationLow'
+
+2017-11-06 09:54:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:35 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/DurationHigh'
+
+2017-11-06 09:54:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:41 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BEP/DurationHigh'
+
+2017-11-06 09:54:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:46 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/PartnerHoursLow'
+
+2017-11-06 09:54:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:51 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BEP/PartnerHoursLow'
+
+2017-11-06 09:54:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:54:56 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BEP/PartnerHoursHigh'
+
+2017-11-06 09:55:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/EstimationMethod' is clicked on
+
+2017-11-06 09:55:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:06 - [MESSAGE][PASSED] - Keys 'BSW' sent to object: 'Object Repository/BEP/EstimationMethod'
+
+2017-11-06 09:55:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/routeToRL' is clicked on
+
+2017-11-06 09:55:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:55:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/BEPOutputEmail' is clicked on
+
+2017-11-06 09:55:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RECEIPIENT' is clicked on
+
+2017-11-06 09:55:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/AddEmailID' is clicked on
+
+2017-11-06 09:55:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:38 - [MESSAGE][PASSED] - Keys 'nagaveni.nipinale@in.pega.com' sent to object: 'Object Repository/BEP/MAILID_XPATH'
+
+2017-11-06 09:55:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/modal_submit' is clicked on
+
+2017-11-06 09:55:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:48 - [MESSAGE][PASSED] - Keys 'Test Automation' sent to object: 'Object Repository/BEP/Email_Subject'
+
+2017-11-06 09:55:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:55:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:55:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2017-11-06 09:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2017-11-06 09:55:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/BEPWOID' is: 'BEP-06Nov2017-39'
+
+2017-11-06 09:55:58 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput is PASSED
+
+2017-11-06 09:55:58 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.woid: com.helper.commonfunct.BEP_CommonMethod.woid is PASSED
+
+2017-11-06 09:55:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/BEPWOID' is: 'BEP-06Nov2017-39'
+
+2017-11-06 09:55:58 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.woid is PASSED
+
+2017-11-06 09:55:58 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.WOstatus: com.helper.commonfunct.BEP_CommonMethod.WOstatus is PASSED
+
+2017-11-06 09:55:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/WOSTATUS' is: 'Pending-RDApproval'
+
+2017-11-06 09:55:59 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.WOstatus is PASSED
+
+2017-11-06 09:55:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/BEP/TC_Create_BEP_EmailOutput' successfully
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - SendEmail = false: null
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - CreateECR = false: null
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/BEP/All_Approval_Reject' successfully
+
+2017-11-06 09:55:59 - [TEST_CASE][PASSED] - Test Cases/BEP/All_Approval_Reject: Test Cases/BEP/All_Approval_Reject
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("Pending")): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < AssignmentList.size(), (j++)]): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - If (WOSTATUS == "Pending-RDApproval"): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - If (RDReject == false): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - Statement - If (RouteToRL == true): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:55:59 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:55:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-06 09:56:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:56:02 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:56:03 - [MESSAGE][PASSED] - Text 'langr1@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:56:03 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:56:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:56:06 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:56:06 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.search: com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:56:07 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 09:56:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:12 - [MESSAGE][PASSED] - Text 'BEP-06Nov2017-39' is set on object 'Object Repository/EngInfo/search'
+
+2017-11-06 09:56:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2017-11-06 09:56:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:22 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:56:22 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RDapprove: com.helper.commonfunct.BEP_CommonMethod.RDapprove is PASSED
+
+2017-11-06 09:56:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RDLink' is clicked on
+
+2017-11-06 09:56:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:56:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:56:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/RD_RLApprove' successfully
+
+2017-11-06 09:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RD_RLApprove' is clicked on
+
+2017-11-06 09:56:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:44 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/BEP/BEP_CASENOTES'
+
+2017-11-06 09:56:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:56:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/FINISH_ASSIGNMENT' successfully
+
+2017-11-06 09:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/FINISH_ASSIGNMENT' is clicked on
+
+2017-11-06 09:56:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:56:55 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RDapprove is PASSED
+
+2017-11-06 09:56:55 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.WOstatus: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:56:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Pending-RLApproval'
+
+2017-11-06 09:56:55 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:56:55 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2017-11-06 09:56:55 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2017-11-06 09:56:55 - [TEST_STEP][PASSED] - Statement - If (WOSTATUS == "Pending-RDApproval"): null
+
+2017-11-06 09:56:55 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-RLApproval"): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:56:55 - [TEST_STEP][PASSED] - Statement - If (RLReject == false): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:56:55 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:56:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-06 09:56:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:56:59 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:56:59 - [MESSAGE][PASSED] - Text 'panee@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:56:59 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:57:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:57:02 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:57:02 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.search: com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:57:03 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 09:57:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:09 - [MESSAGE][PASSED] - Text 'BEP-06Nov2017-39' is set on object 'Object Repository/EngInfo/search'
+
+2017-11-06 09:57:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2017-11-06 09:57:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:19 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:57:19 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RLapprove: com.helper.commonfunct.BEP_CommonMethod.RLapprove is PASSED
+
+2017-11-06 09:57:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RlLink' is clicked on
+
+2017-11-06 09:57:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-06 09:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-06 09:57:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:57:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/RD_RLApprove' successfully
+
+2017-11-06 09:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/RD_RLApprove' is clicked on
+
+2017-11-06 09:57:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:41 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/BEP/BEP_CASENOTES'
+
+2017-11-06 09:57:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:57:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BEP/FINISH_ASSIGNMENT' successfully
+
+2017-11-06 09:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/FINISH_ASSIGNMENT' is clicked on
+
+2017-11-06 09:57:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:57:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/BEP/WOSTATUS' is: 'Pending-EmailCustomer'
+
+2017-11-06 09:57:52 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.RLapprove is PASSED
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.WOstatus: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:57:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Pending-EmailCustomer'
+
+2017-11-06 09:57:52 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < AssignmentList.size(), (j++)]): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - If (WOSTATUS == "Pending-RDApproval"): null
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-RLApproval"): null
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-Update"): null
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-Meeting"): null
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - Else If (WOSTATUS == "Pending-EmailCustomer"): com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - If (SendEmail == true): null
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - Statement - Else: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:57:52 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:57:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-06 09:57:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-06 09:57:56 - [MESSAGE][PASSED] - Navigate to 'http://vtcpqa2:9685/tcpqa/PRServlet' successfully
+
+2017-11-06 09:57:56 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-06 09:57:56 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-06 09:57:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-06 09:57:59 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-06 09:57:59 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.search: com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:58:00 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 09:58:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:06 - [MESSAGE][PASSED] - Text 'BEP-06Nov2017-39' is set on object 'Object Repository/EngInfo/search'
+
+2017-11-06 09:58:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2017-11-06 09:58:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:16 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.search is PASSED
+
+2017-11-06 09:58:16 - [TEST_STEP][PASSED] - com.helper.commonfunct.BEP_CommonMethod.SkipEmail: com.helper.commonfunct.BEP_CommonMethod.SkipEmail is PASSED
+
+2017-11-06 09:58:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-06 09:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/SendCustomerEmail' is clicked on
+
+2017-11-06 09:58:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/SKIP_EMAIL_XPATH' is clicked on
+
+2017-11-06 09:58:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:32 - [MESSAGE][PASSED] - Keys 'testing' sent to object: 'Object Repository/BEP/DispositionReason'
+
+2017-11-06 09:58:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:38 - [MESSAGE][PASSED] - All options with value 'RFP in process' are selected in object 'Object Repository/BEP/ReasonCode' 
+
+2017-11-06 09:58:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/test' is clicked on
+
+2017-11-06 09:58:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BEP/Modal_OK' is clicked on
+
+2017-11-06 09:58:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 09:58:53 - [MESSAGE][PASSED] - com.helper.commonfunct.BEP_CommonMethod.SkipEmail is PASSED
+
+2017-11-06 09:58:53 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.WOstatus: com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:58:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Resolved-Approved'
+
+2017-11-06 09:58:54 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.WOstatus is PASSED
+
+2017-11-06 09:58:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/BEP/All_Approval_Reject' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-06 09:45:31 - [TEST_SUITE][PASSED] - NotRun: Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_NOECR]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

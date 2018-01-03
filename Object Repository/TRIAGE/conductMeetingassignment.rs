@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>conductMeetingassignment</name>
+   <tag></tag>
+   <elementGuidId>42ad4b7d-6014-4156-b068-d67e43f722ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='$PCaseContentsPage$ppxResults$l1']/ul/li[2]/div/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='$PCaseContentsPage$ppxResults$l1']/ul/li[2]/div/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>
