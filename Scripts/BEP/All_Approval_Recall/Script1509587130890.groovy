@@ -18,7 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+//test//
 while (GlobalVariable.WOSTATUS.contains('Pending')) {
     for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {
         GlobalVariable.Status = GlobalVariable.AssignmentList[j].text
