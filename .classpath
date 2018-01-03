@@ -68,19 +68,19 @@
 	<classpathentry kind="lib" path="C:/Users/ranjs1/Data/Office/Automation/Katalon_Studio_Windows_64-4.8/plugins/wsdl4j_1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ranjs1/Data/Office/Automation/Katalon_Studio_Windows_64-4.8/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ranjs1/Data/Office/Automation/Katalon_Studio_Windows_64-4.8/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/curvesapi-1.04.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/poi-examples-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/poi-excelant-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/poi-scratchpad-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ranjs1/Box Sync/Pega Consulting COE/02 Testing/Test Automation/Katalon/Fusion_BEP/COE/Drivers/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/COE_GIT_FUSION/LDISCAN.CFG/Drivers/xmlbeans-2.6.0.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

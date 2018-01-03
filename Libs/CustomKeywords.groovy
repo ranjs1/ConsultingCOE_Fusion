@@ -35,6 +35,10 @@ def static "com.helper.commonfunct.COECommonMethods.serviceTeam"(
          , 	RL)
 }
 
+def static "com.helper.commonfunct.INV_CommonMethods.createNewInvestment"() {
+    (new com.helper.commonfunct.INV_CommonMethods()).createNewInvestment()
+}
+
 def static "com.helper.commonfunct.BEP_CommonMethod.BEPImport"(
     	String filename	) {
     (new com.helper.commonfunct.BEP_CommonMethod()).BEPImport(
