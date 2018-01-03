@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR_Lite,Chrome 62.0.3202.94,,2017-11-28 10:37:45,2017-11-28 11:10:15,32m - 29.793s,FAILED
+,,,,,,
+Test Cases/ECR/TC_ECRLite_NoExpertService_AllApproval,Chrome 62.0.3202.94,,2017-11-28 10:37:46,2017-11-28 10:44:20,6m - 34.353s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-28 10:37:46,2017-11-28 10:40:34,2m - 47.670s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-11-28 10:40:34,2017-11-28 10:44:20,3m - 45.744s,FAILED
+,,,,,,
+Test Cases/ECR/TC_ECRLite_NoExpertService_AllReject,Chrome 62.0.3202.94,,2017-11-28 10:44:20,2017-11-28 10:46:39,2m - 18.640s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-28 10:44:20,2017-11-28 10:46:39,2m - 18.144s,FAILED
+,,,,,,
+Test Cases/ECR/TC_ECR_Lite_ExpertService_AllReject,Chrome 62.0.3202.94,,2017-11-28 10:46:39,2017-11-28 10:58:49,12m - 10.711s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-28 10:46:39,2017-11-28 10:49:24,2m - 44.690s,PASSED
+com.helper.commonfunct.utilities.setprop,Chrome 62.0.3202.94,,2017-11-28 10:49:24,2017-11-28 10:49:24,0.001s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-11-28 10:49:24,2017-11-28 10:58:49,9m - 25.539s,FAILED
+,,,,,,
+Test Cases/ECR/TC_ECR_Lite_ExpertService_AllApproval,Chrome 62.0.3202.94,,2017-11-28 10:58:49,2017-11-28 11:10:14,11m - 24.351s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-28 10:58:50,2017-11-28 11:01:32,2m - 41.890s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-11-28 11:01:32,2017-11-28 11:10:14,8m - 42.090s,FAILED

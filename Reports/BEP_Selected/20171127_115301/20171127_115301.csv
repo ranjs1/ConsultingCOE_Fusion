@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BEP_Selected,Chrome 62.0.3202.94,,2017-11-27 11:53:04,2017-11-27 12:08:25,15m - 21.639s,FAILED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_NoroutingToRL,Chrome 62.0.3202.94,,2017-11-27 11:53:04,2017-11-27 11:55:24,2m - 20.009s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 11:53:05,2017-11-27 11:55:24,2m - 19.213s,FAILED
+,,,,,,
+Test Cases/BEP/TC_RLMeetingRequest_CancelMeeting,Chrome 62.0.3202.94,,2017-11-27 11:55:24,2017-11-27 12:08:24,12m - 59.658s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 11:55:25,2017-11-27 11:59:33,4m - 8.927s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-27 11:59:33,2017-11-27 12:00:26,52.403s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.94,,2017-11-27 12:00:26,2017-11-27 12:00:43,16.849s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RDapprove,Chrome 62.0.3202.94,,2017-11-27 12:00:43,2017-11-27 12:01:17,34.695s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-27 12:01:17,2017-11-27 12:01:37,19.280s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.94,,2017-11-27 12:01:37,2017-11-27 12:01:54,16.925s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RLRequestMeeting,Chrome 62.0.3202.94,,2017-11-27 12:01:54,2017-11-27 12:03:14,1m - 19.949s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-27 12:03:14,2017-11-27 12:03:25,11.151s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.94,,2017-11-27 12:03:25,2017-11-27 12:03:42,17.007s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.ScheduleMeeting,Chrome 62.0.3202.94,,2017-11-27 12:03:42,2017-11-27 12:04:05,22.829s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-27 12:04:05,2017-11-27 12:04:14,9.074s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.94,,2017-11-27 12:04:14,2017-11-27 12:04:30,16.834s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.94,,2017-11-27 12:04:30,2017-11-27 12:04:30,0.000s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RLapprove,Chrome 62.0.3202.94,,2017-11-27 12:04:30,2017-11-27 12:04:53,22.723s,PASSED
+click,Chrome 62.0.3202.94,,2017-11-27 12:04:53,2017-11-27 12:04:54,1.112s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.94,,2017-11-27 12:04:54,2017-11-27 12:05:10,16.076s,PASSED
+Statement - Meeting = false,Chrome 62.0.3202.94,,2017-11-27 12:05:10,2017-11-27 12:05:10,0.001s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RequestCancelMeeting,Chrome 62.0.3202.94,,2017-11-27 12:05:10,2017-11-27 12:06:37,1m - 26.256s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.94,,2017-11-27 12:06:37,2017-11-27 12:06:45,8.514s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.94,,2017-11-27 12:06:45,2017-11-27 12:07:04,19.331s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Cancelmeeting,Chrome 62.0.3202.94,,2017-11-27 12:07:04,2017-11-27 12:07:21,16.817s,PASSED
+com.helper.commonfunct.utilities.WOstatus,Chrome 62.0.3202.94,,2017-11-27 12:07:21,2017-11-27 12:07:22,0.246s,PASSED
+Statement - Meeting = false,Chrome 62.0.3202.94,,2017-11-27 12:07:22,2017-11-27 12:07:22,0.001s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 12:07:22,2017-11-27 12:08:24,1m - 2.269s,PASSED

@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ECR Emrgency Change" time="875" tests="1" failures="3" errors="1">
+   <testsuite name="ECR Emrgency Change" tests="1" failures="3" errors="1" time="875" timestamp="2017-11-15 11:49:22" hostname="nipin - L22622WUS.rpega.com" id="Test Suites/ECR Emrgency Change">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919"/>
+         <property name="logFiles" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919\\1510764781258.png, C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919\\1510765164057.png, C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919\\1510765434587.png"/>
+         <property name="hostName" value="nipin - L22622WUS.rpega.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.89"/>
+         <property name="hostAddress" value="10.2.176.77"/>
+         <property name="sessionId" value="92189df5ce8ef67210ea799facf183af"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ECR/REF/ECR_Lite_ExpertService" classname="Test Cases/ECR/REF/ECR_Lite_ExpertService" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)"/>
+         <system-out><![CDATA[2017-11-15 11:49:22 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Lite_ExpertService: Test Cases/ECR/REF/ECR_Lite_ExpertService FAILED because (of) Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)
+
+2017-11-15 11:49:23 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:49:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 11:49:28 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 11:49:29 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 11:49:29 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 11:49:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 11:49:32 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:49:32 - [TEST_STEP][FAILED] - com.helper.commonfunct.utilities.createECR: Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)
+
+2017-11-15 11:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 11:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 11:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Bid Process' is clicked on
+
+2017-11-15 11:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/BID_TYPE' is clicked on
+
+2017-11-15 11:49:35 - [MESSAGE][PASSED] - Object 'Object Repository/button_Import' is present
+
+2017-11-15 11:49:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Import' is clicked on
+
+2017-11-15 11:49:41 - [MESSAGE][PASSED] - File 'C:\Users\nipin\Desktop\Latest BSW\ECR_LITE_EXPSVC.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-15 11:49:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:49:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 11:49:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_Submit' successfully
+
+2017-11-15 11:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-15 11:49:47 - [MESSAGE][PASSED] - Object 'Object Repository/EngInfo/COID' is visible
+
+2017-11-15 11:49:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:49:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:49:57 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-15 11:50:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:02 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-15 11:50:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:07 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-15 11:50:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:12 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-15 11:50:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:18 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-15 11:50:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 11:50:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2017-11-15 11:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2017-11-15 11:50:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:28 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2017-11-15 11:50:35 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 11:50:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 11:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/gapDrivenMethodology' is clicked on
+
+2017-11-15 11:50:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/RapidDelivery' is clicked on
+
+2017-11-15 11:50:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/MorethanOneRLS' is clicked on
+
+2017-11-15 11:50:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:51 - [MESSAGE][PASSED] - Text '85000' is set on object 'Object Repository/ECR/Licence'
+
+2017-11-15 11:50:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/platform' is visible
+
+2017-11-15 11:51:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-15 11:51:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:07 - [MESSAGE][PASSED] - Keys 'Accessibility' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-15 11:51:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-15 11:51:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:17 - [MESSAGE][PASSED] - Keys 'Accessibility Framework' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-15 11:51:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-15 11:51:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-15 11:51:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:38 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-15 11:51:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-15 11:51:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:49 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-15 11:51:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RL' is clicked on
+
+2017-11-15 11:51:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:51:59 - [MESSAGE][PASSED] - Keys 'Eric Panepinto' sent to object: 'Object Repository/EngInfo/RL'
+
+2017-11-15 11:52:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RD' is clicked on
+
+2017-11-15 11:52:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:52:10 - [MESSAGE][PASSED] - Keys 'Robert Lang' sent to object: 'Object Repository/EngInfo/RD'
+
+2017-11-15 11:52:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:52:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 11:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 11:52:22 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 11:52:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 11:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 11:52:29 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 11:52:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 11:53:01 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)
+[[ATTACHMENT|C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919\\1510764781258.png]]
+
+2017-11-15 11:53:01 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)]]></system-out>
+         <system-err><![CDATA[2017-11-15 11:49:22 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Lite_ExpertService: Test Cases/ECR/REF/ECR_Lite_ExpertService FAILED because (of) Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_Lite_NoExpertService" classname="Test Cases/ECR/REF/ECR_Lite_NoExpertService" status="PASSED">
+         <system-out><![CDATA[2017-11-15 11:53:01 - [TEST_CASE][PASSED] - Test Cases/ECR/REF/ECR_Lite_NoExpertService: Test Cases/ECR/REF/ECR_Lite_NoExpertService
+
+2017-11-15 11:53:02 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:53:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-15 11:53:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 11:53:06 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 11:53:06 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 11:53:07 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 11:53:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 11:53:10 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:53:10 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.createECR: com.helper.commonfunct.utilities.createECR is PASSED
+
+2017-11-15 11:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 11:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 11:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Bid Process' is clicked on
+
+2017-11-15 11:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/BID_TYPE' is clicked on
+
+2017-11-15 11:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/button_Import' is present
+
+2017-11-15 11:53:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Import' is clicked on
+
+2017-11-15 11:53:19 - [MESSAGE][PASSED] - File 'C:\LatestBSW\BSW OCT 2017_ECRLite.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-15 11:53:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 11:53:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_Submit' successfully
+
+2017-11-15 11:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-15 11:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/EngInfo/COID' is visible
+
+2017-11-15 11:53:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:35 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-15 11:53:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:40 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-15 11:53:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:45 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-15 11:53:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:50 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-15 11:53:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:53:55 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-15 11:54:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 11:54:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2017-11-15 11:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2017-11-15 11:54:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:06 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2017-11-15 11:54:13 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 11:54:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 11:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/gapDrivenMethodology' is clicked on
+
+2017-11-15 11:54:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/RapidDelivery' is clicked on
+
+2017-11-15 11:54:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/MorethanOneRLS' is clicked on
+
+2017-11-15 11:54:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:29 - [MESSAGE][PASSED] - Text '85000' is set on object 'Object Repository/ECR/Licence'
+
+2017-11-15 11:54:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:34 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/platform' is visible
+
+2017-11-15 11:54:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-15 11:54:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:45 - [MESSAGE][PASSED] - Keys 'Accessibility' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-15 11:54:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-15 11:54:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:54:55 - [MESSAGE][PASSED] - Keys 'Accessibility Framework' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-15 11:55:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-15 11:55:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-15 11:55:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:16 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-15 11:55:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-15 11:55:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:26 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-15 11:55:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RL' is clicked on
+
+2017-11-15 11:55:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:37 - [MESSAGE][PASSED] - Keys 'Eric Panepinto' sent to object: 'Object Repository/EngInfo/RL'
+
+2017-11-15 11:55:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RD' is clicked on
+
+2017-11-15 11:55:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:47 - [MESSAGE][PASSED] - Keys 'Robert Lang' sent to object: 'Object Repository/EngInfo/RD'
+
+2017-11-15 11:55:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:55:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 11:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 11:56:00 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 11:56:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 11:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 11:56:07 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2017-11-15 11:56:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 11:56:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2017-11-15 11:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2017-11-15 11:56:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:56:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/WO' is: 'ECR-15Nov2017-14'
+
+2017-11-15 11:56:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/WOSTATUS' is: 'Pending-RDApproval'
+
+2017-11-15 11:56:14 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.createECR is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_Meeting_ExpertService" classname="Test Cases/ECR/REF/ECR_Meeting_ExpertService" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '12/6/2017 11:27 AM' of object 'Object Repository/EngInfo/MeetingDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EngInfo/MeetingDate' located by 'By.xpath: //input[@data-test-id='2016091306023900821810550']' not found)"/>
+         <system-out><![CDATA[2017-11-15 11:56:14 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_ExpertService: Test Cases/ECR/REF/ECR_Meeting_ExpertService FAILED because (of) Unable to set text '12/6/2017 11:27 AM' of object 'Object Repository/EngInfo/MeetingDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EngInfo/MeetingDate' located by 'By.xpath: //input[@data-test-id='2016091306023900821810550']' not found)
+
+2017-11-15 11:56:14 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:56:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-15 11:56:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 11:56:18 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 11:56:18 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 11:56:18 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 11:56:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 11:56:22 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:56:22 - [TEST_STEP][PASSED] - Statement - Meeting = true: null
+
+2017-11-15 11:56:22 - [TEST_STEP][FAILED] - com.helper.commonfunct.utilities.ECRMeeting: Unable to set text '12/6/2017 11:27 AM' of object 'Object Repository/EngInfo/MeetingDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EngInfo/MeetingDate' located by 'By.xpath: //input[@data-test-id='2016091306023900821810550']' not found)
+
+2017-11-15 11:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 11:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 11:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Bid Process' is clicked on
+
+2017-11-15 11:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/BID_TYPE' is clicked on
+
+2017-11-15 11:56:25 - [MESSAGE][PASSED] - Object 'Object Repository/button_Import' is present
+
+2017-11-15 11:56:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Import' is clicked on
+
+2017-11-15 11:56:31 - [MESSAGE][PASSED] - File 'C:\Users\nipin\Desktop\Latest BSW\ECR_EXPSVC.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-15 11:56:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:56:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 11:56:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_Submit' successfully
+
+2017-11-15 11:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-15 11:56:36 - [MESSAGE][PASSED] - Object 'Object Repository/EngInfo/COID' is visible
+
+2017-11-15 11:56:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:56:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:56:47 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-15 11:56:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:56:52 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-15 11:56:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:56:57 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-15 11:56:57 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-15 11:57:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:02 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-15 11:57:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2017-11-15 11:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2017-11-15 11:57:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 11:57:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:13 - [MESSAGE][PASSED] - Text 'CO-123' is set on object 'Object Repository/EngInfo/COID'
+
+2017-11-15 11:57:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 11:57:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-15 11:57:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:24 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-15 11:57:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-15 11:57:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:34 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-15 11:57:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RL' is clicked on
+
+2017-11-15 11:57:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:44 - [MESSAGE][PASSED] - Keys 'Eric Panepinto' sent to object: 'Object Repository/EngInfo/RL'
+
+2017-11-15 11:57:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RD' is clicked on
+
+2017-11-15 11:57:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:57:55 - [MESSAGE][PASSED] - Keys 'Robert Lang' sent to object: 'Object Repository/EngInfo/RD'
+
+2017-11-15 11:58:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/MorethanOneRLS' is clicked on
+
+2017-11-15 11:58:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/RapidDelivery' is clicked on
+
+2017-11-15 11:58:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/methodology' is clicked on
+
+2017-11-15 11:58:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:21 - [MESSAGE][PASSED] - Text '85000' is set on object 'Object Repository/ECR/Licence'
+
+2017-11-15 11:58:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-15 11:58:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:31 - [MESSAGE][PASSED] - Keys 'Accessibility' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-15 11:58:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-15 11:58:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:42 - [MESSAGE][PASSED] - Keys 'Accessibility Framework' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-15 11:58:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-15 11:58:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 11:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 11:58:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:59:24 - [MESSAGE][FAILED] - Unable to set text '12/6/2017 11:27 AM' of object 'Object Repository/EngInfo/MeetingDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EngInfo/MeetingDate' located by 'By.xpath: //input[@data-test-id='2016091306023900821810550']' not found)
+[[ATTACHMENT|C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919\\1510765164057.png]]
+
+2017-11-15 11:59:24 - [MESSAGE][FAILED] - Unable to set text '12/6/2017 11:27 AM' of object 'Object Repository/EngInfo/MeetingDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EngInfo/MeetingDate' located by 'By.xpath: //input[@data-test-id='2016091306023900821810550']' not found)]]></system-out>
+         <system-err><![CDATA[2017-11-15 11:56:14 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_ExpertService: Test Cases/ECR/REF/ECR_Meeting_ExpertService FAILED because (of) Unable to set text '12/6/2017 11:27 AM' of object 'Object Repository/EngInfo/MeetingDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EngInfo/MeetingDate' located by 'By.xpath: //input[@data-test-id='2016091306023900821810550']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_Meeting_NoExpertService" classname="Test Cases/ECR/REF/ECR_Meeting_NoExpertService" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Approve-Reject/attachdoc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Approve-Reject/attachdoc' located by 'By.xpath: //nobr//a[contains(.,'Attach Documents')]' not found)"/>
+         <system-out><![CDATA[2017-11-15 11:59:24 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_NoExpertService: Test Cases/ECR/REF/ECR_Meeting_NoExpertService FAILED because (of) Unable to click on object 'Object Repository/Approve-Reject/attachdoc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Approve-Reject/attachdoc' located by 'By.xpath: //nobr//a[contains(.,'Attach Documents')]' not found)
+
+2017-11-15 11:59:24 - [TEST_STEP][PASSED] - com.helper.commonfunct.utilities.login: com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:59:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-15 11:59:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-15 11:59:28 - [MESSAGE][PASSED] - Navigate to 'https://vtcpclone.rpega.com:9630/tcpclone/PRServlet' successfully
+
+2017-11-15 11:59:28 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/input_UserIdentifier'
+
+2017-11-15 11:59:29 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/input_Password'
+
+2017-11-15 11:59:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Password'
+
+2017-11-15 11:59:32 - [MESSAGE][PASSED] - com.helper.commonfunct.utilities.login is PASSED
+
+2017-11-15 11:59:32 - [TEST_STEP][PASSED] - Statement - Meeting = true: null
+
+2017-11-15 11:59:32 - [TEST_STEP][FAILED] - com.helper.commonfunct.utilities.ECRMeeting: Unable to click on object 'Object Repository/Approve-Reject/attachdoc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Approve-Reject/attachdoc' located by 'By.xpath: //nobr//a[contains(.,'Attach Documents')]' not found)
+
+2017-11-15 11:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/a_Actions' is clicked on
+
+2017-11-15 11:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/span_New' is focused
+
+2017-11-15 11:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Bid Process' is clicked on
+
+2017-11-15 11:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/BID_TYPE' is clicked on
+
+2017-11-15 11:59:34 - [MESSAGE][PASSED] - Object 'Object Repository/button_Import' is present
+
+2017-11-15 11:59:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Import' is clicked on
+
+2017-11-15 11:59:40 - [MESSAGE][PASSED] - File 'C:\Users\nipin\Desktop\Latest BSW\ECR_WITH_MEETING.xlsm' sent to object: 'Object Repository/input_PpyWorkPageppyFilePath'
+
+2017-11-15 11:59:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:59:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-15 11:59:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_Submit' successfully
+
+2017-11-15 11:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Submit' is clicked on
+
+2017-11-15 11:59:46 - [MESSAGE][PASSED] - Object 'Object Repository/EngInfo/COID' is visible
+
+2017-11-15 11:59:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:59:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 11:59:56 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2017-11-15 12:00:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:01 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2017-11-15 12:00:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:07 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2017-11-15 12:00:07 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2017-11-15 12:00:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:12 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2017-11-15 12:00:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2017-11-15 12:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2017-11-15 12:00:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:00:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:29 - [MESSAGE][PASSED] - Text 'CO-123' is set on object 'Object Repository/EngInfo/COID'
+
+2017-11-15 12:00:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-15 12:00:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PL' is clicked on
+
+2017-11-15 12:00:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:40 - [MESSAGE][PASSED] - Keys 'Jeff Henderson ' sent to object: 'Object Repository/EngInfo/PL'
+
+2017-11-15 12:00:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/PLTL' is clicked on
+
+2017-11-15 12:00:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:50 - [MESSAGE][PASSED] - Keys 'Robert Higgins' sent to object: 'Object Repository/EngInfo/PLTL'
+
+2017-11-15 12:00:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RL' is clicked on
+
+2017-11-15 12:01:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:00 - [MESSAGE][PASSED] - Keys 'Eric Panepinto' sent to object: 'Object Repository/EngInfo/RL'
+
+2017-11-15 12:01:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/RD' is clicked on
+
+2017-11-15 12:01:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:11 - [MESSAGE][PASSED] - Keys 'Robert Lang' sent to object: 'Object Repository/EngInfo/RD'
+
+2017-11-15 12:01:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/MorethanOneRLS' is clicked on
+
+2017-11-15 12:01:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/RapidDelivery' is clicked on
+
+2017-11-15 12:01:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/methodology' is clicked on
+
+2017-11-15 12:01:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:37 - [MESSAGE][PASSED] - Text '85000' is set on object 'Object Repository/ECR/Licence'
+
+2017-11-15 12:01:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformID' is clicked on
+
+2017-11-15 12:01:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:47 - [MESSAGE][PASSED] - Keys 'Accessibility' sent to object: 'Object Repository/Generic/PlatformID'
+
+2017-11-15 12:01:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformVersion' is clicked on
+
+2017-11-15 12:01:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:01:58 - [MESSAGE][PASSED] - Keys 'Accessibility Framework' sent to object: 'Object Repository/Generic/PlatformVersion'
+
+2017-11-15 12:02:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/PlatformTrue' is clicked on
+
+2017-11-15 12:02:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:02:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:09 - [MESSAGE][PASSED] - Text '12/6/2017 11:27 AM' is set on object 'Object Repository/EngInfo/MeetingDate'
+
+2017-11-15 12:02:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:14 - [MESSAGE][PASSED] - Text 'TEsting' is set on object 'Object Repository/EngInfo/instruction'
+
+2017-11-15 12:02:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/EngInfo/AE'
+
+2017-11-15 12:02:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:25 - [MESSAGE][PASSED] - Text 'Nagaveni Nipinale' is set on object 'Object Repository/EngInfo/AE'
+
+2017-11-15 12:02:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/AE_USER' is hovered
+
+2017-11-15 12:02:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/AE_USER' is clicked on
+
+2017-11-15 12:02:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:40 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/EngInfo/AE'
+
+2017-11-15 12:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/isCloudInitiativeYes' is clicked on
+
+2017-11-15 12:02:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/IsPegaMarketingYes' is clicked on
+
+2017-11-15 12:02:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/IsPegaMobileYes' is clicked on
+
+2017-11-15 12:02:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:02:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:03:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:03:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/NEXT_BUTTON' successfully
+
+2017-11-15 12:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/NEXT_BUTTON' is clicked on
+
+2017-11-15 12:03:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:03:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2017-11-15 12:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2017-11-15 12:03:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/Continue' is clicked on
+
+2017-11-15 12:03:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:03:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-15 12:03:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Approve-Reject/attachdoc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Approve-Reject/attachdoc' located by 'By.xpath: //nobr//a[contains(.,'Attach Documents')]' not found)
+[[ATTACHMENT|C:\\Users\\nipin\\Katalon Studio\\COE\\Reports\\ECR Emrgency Change\\20171115_114919\\1510765434587.png]]
+
+2017-11-15 12:03:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Approve-Reject/attachdoc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Approve-Reject/attachdoc' located by 'By.xpath: //nobr//a[contains(.,'Attach Documents')]' not found)]]></system-out>
+         <system-err><![CDATA[2017-11-15 11:59:24 - [TEST_CASE][FAILED] - Test Cases/ECR/REF/ECR_Meeting_NoExpertService: Test Cases/ECR/REF/ECR_Meeting_NoExpertService FAILED because (of) Unable to click on object 'Object Repository/Approve-Reject/attachdoc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Approve-Reject/attachdoc' located by 'By.xpath: //nobr//a[contains(.,'Attach Documents')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/REF/ECR_NoRL_Approval" classname="Test Cases/ECR/REF/ECR_NoRL_Approval" status="ERROR">
+         <error type="ERROR" message="Test Cases/ECR/REF/ECR_NoRL_Approval FAILED because (of) org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver"/>
+         <system-out><![CDATA[2017-11-15 12:03:55 - [TEST_CASE][ERROR] - Test Cases/ECR/REF/ECR_NoRL_Approval: Test Cases/ECR/REF/ECR_NoRL_Approval FAILED because (of) org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver
+
+2017-11-15 12:03:56 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("Pending")): null
+
+2017-11-15 12:03:56 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < AssignmentList.size(), (j++)]): null
+
+2017-11-15 12:03:56 - [TEST_STEP][PASSED] - Statement - Status = text: null]]></system-out>
+         <system-err><![CDATA[2017-11-15 12:03:55 - [TEST_CASE][ERROR] - Test Cases/ECR/REF/ECR_NoRL_Approval: Test Cases/ECR/REF/ECR_NoRL_Approval FAILED because (of) org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'L22622WUS', ip: '10.2.176.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-15 11:49:22 - [TEST_SUITE][FAILED] - ECR Emrgency Change: Test Cases/ECR/REF/ECR_Lite_ExpertService FAILED because (of) Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-15 11:49:22 - [TEST_SUITE][FAILED] - ECR Emrgency Change: Test Cases/ECR/REF/ECR_Lite_ExpertService FAILED because (of) Unable to scroll to object 'Object Repository/Generic/FINISH_BUTTON' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FINISH_BUTTON' located by 'By.xpath: //button[contains(.,'Finish')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

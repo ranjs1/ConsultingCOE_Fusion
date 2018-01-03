@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+NotRun,Chrome 61.0.3163.100,,2017-11-06 09:45:31,2017-11-06 09:58:55,13m - 24.242s,PASSED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR,Chrome 61.0.3163.100,,2017-11-06 09:45:31,2017-11-06 09:52:18,6m - 46.719s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 09:45:32,2017-11-06 09:49:15,3m - 42.987s,PASSED
+Statement - SendEmail = false,Chrome 61.0.3163.100,,2017-11-06 09:49:15,2017-11-06 09:49:15,0.000s,PASSED
+Statement - CreateECR = true,Chrome 61.0.3163.100,,2017-11-06 09:49:15,2017-11-06 09:49:15,0.000s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 09:49:15,2017-11-06 09:52:18,3m - 3.025s,PASSED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_NOECR,Chrome 61.0.3163.100,,2017-11-06 09:52:18,2017-11-06 09:58:54,6m - 36.003s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 09:52:18,2017-11-06 09:55:59,3m - 40.332s,PASSED
+Statement - SendEmail = false,Chrome 61.0.3163.100,,2017-11-06 09:55:59,2017-11-06 09:55:59,0.000s,PASSED
+Statement - CreateECR = false,Chrome 61.0.3163.100,,2017-11-06 09:55:59,2017-11-06 09:55:59,0.001s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 09:55:59,2017-11-06 09:58:54,2m - 55.407s,PASSED

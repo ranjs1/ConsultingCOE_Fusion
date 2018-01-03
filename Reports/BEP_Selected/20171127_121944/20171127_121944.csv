@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BEP_Selected,Chrome 62.0.3202.94,,2017-11-27 12:19:47,2017-11-27 12:28:52,9m - 4.963s,FAILED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_NoroutingToRL,Chrome 62.0.3202.94,,2017-11-27 12:19:48,2017-11-27 12:23:58,4m - 10.128s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 12:19:49,2017-11-27 12:23:58,4m - 8.622s,FAILED
+,,,,,,
+Test Cases/BEP/TC_RLMeetingRequest_CancelMeeting,Chrome 62.0.3202.94,,2017-11-27 12:23:58,2017-11-27 12:28:51,4m - 53.012s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-11-27 12:23:58,2017-11-27 12:28:51,4m - 52.329s,FAILED

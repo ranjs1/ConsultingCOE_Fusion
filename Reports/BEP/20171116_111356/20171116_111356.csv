@@ -1,0 +1,91 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BEP,Chrome 62.0.3202.89,,2017-11-16 11:13:59,2017-11-16 12:28:18,1h - 14m - 18.873s,PASSED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_EmailOutput_SendEmail_CreateECR,Chrome 62.0.3202.89,,2017-11-16 11:14:00,2017-11-16 11:21:19,7m - 18.530s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:14:02,2017-11-16 11:18:27,4m - 24.966s,PASSED
+Statement - SendEmail = true,Chrome 62.0.3202.89,,2017-11-16 11:18:27,2017-11-16 11:18:27,0.001s,PASSED
+Statement - CreateECR = true,Chrome 62.0.3202.89,,2017-11-16 11:18:27,2017-11-16 11:18:27,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:18:27,2017-11-16 11:21:19,2m - 51.942s,PASSED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_EmailOutput_SendEmail_NoECR,Chrome 62.0.3202.89,,2017-11-16 11:21:19,2017-11-16 11:28:41,7m - 22.537s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:21:19,2017-11-16 11:25:41,4m - 21.342s,PASSED
+Statement - SendEmail = true,Chrome 62.0.3202.89,,2017-11-16 11:25:41,2017-11-16 11:25:41,0.001s,PASSED
+Statement - CreateECR = false,Chrome 62.0.3202.89,,2017-11-16 11:25:41,2017-11-16 11:25:41,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:25:41,2017-11-16 11:28:41,3m - 0.864s,PASSED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR,Chrome 62.0.3202.89,,2017-11-16 11:28:41,2017-11-16 11:36:16,7m - 34.728s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:28:42,2017-11-16 11:33:05,4m - 23.269s,PASSED
+Statement - SendEmail = false,Chrome 62.0.3202.89,,2017-11-16 11:33:05,2017-11-16 11:33:05,0.000s,PASSED
+Statement - CreateECR = true,Chrome 62.0.3202.89,,2017-11-16 11:33:05,2017-11-16 11:33:05,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:33:05,2017-11-16 11:36:16,3m - 11.028s,PASSED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_EmailOutput_SkipEmail_NOECR,Chrome 62.0.3202.89,,2017-11-16 11:36:16,2017-11-16 11:43:29,7m - 12.457s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:36:17,2017-11-16 11:40:27,4m - 10.671s,PASSED
+Statement - SendEmail = false,Chrome 62.0.3202.89,,2017-11-16 11:40:27,2017-11-16 11:40:27,0.000s,PASSED
+Statement - CreateECR = false,Chrome 62.0.3202.89,,2017-11-16 11:40:27,2017-11-16 11:40:27,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:40:27,2017-11-16 11:43:29,3m - 1.491s,PASSED
+,,,,,,
+Test Cases/BEP/TC_CreateBEP_NoroutingToRL,Chrome 62.0.3202.89,,2017-11-16 11:43:29,2017-11-16 11:48:34,5m - 5.471s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:43:29,2017-11-16 11:47:21,3m - 51.746s,PASSED
+Statement - RDReject = 1,Chrome 62.0.3202.89,,2017-11-16 11:47:21,2017-11-16 11:47:21,0.001s,NOT_RUN
+Statement - RouteToRL = false,Chrome 62.0.3202.89,,2017-11-16 11:47:21,2017-11-16 11:47:21,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:47:21,2017-11-16 11:48:34,1m - 13.435s,PASSED
+,,,,,,
+Test Cases/BEP/TC_Create_BEP_EmailOutput,Chrome 62.0.3202.89,,2017-11-16 11:48:34,2017-11-16 11:52:52,4m - 18.116s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 11:48:34,2017-11-16 11:48:47,12.857s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.EstimateEmailOutput,Chrome 62.0.3202.89,,2017-11-16 11:48:47,2017-11-16 11:52:52,4m - 5.092s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.woid,Chrome 62.0.3202.89,,2017-11-16 11:52:52,2017-11-16 11:52:52,0.037s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.WOstatus,Chrome 62.0.3202.89,,2017-11-16 11:52:52,2017-11-16 11:52:52,0.110s,PASSED
+Statement - println(WOID),Chrome 62.0.3202.89,,2017-11-16 11:52:52,2017-11-16 11:52:52,0.001s,PASSED
+,,,,,,
+Test Cases/BEP/TC_Create_BEP_NoOutput,Chrome 62.0.3202.89,,2017-11-16 11:52:52,2017-11-16 11:56:37,3m - 44.320s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 11:52:52,2017-11-16 11:53:00,7.402s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.EstimateNoOutput,Chrome 62.0.3202.89,,2017-11-16 11:53:00,2017-11-16 11:56:37,3m - 36.762s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.woid,Chrome 62.0.3202.89,,2017-11-16 11:56:37,2017-11-16 11:56:37,0.033s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.WOstatus,Chrome 62.0.3202.89,,2017-11-16 11:56:37,2017-11-16 11:56:37,0.111s,PASSED
+,,,,,,
+Test Cases/BEP/TC_RD_RL_Reject,Chrome 62.0.3202.89,,2017-11-16 11:56:37,2017-11-16 12:02:34,5m - 56.659s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 11:56:37,2017-11-16 12:00:30,3m - 52.695s,PASSED
+com.helper.commonfunct.utilities.setprop,Chrome 62.0.3202.89,,2017-11-16 12:00:30,2017-11-16 12:00:30,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 12:00:30,2017-11-16 12:02:34,2m - 3.618s,PASSED
+,,,,,,
+Test Cases/BEP/TC_RLMeetingRequest_CancelMeeting,Chrome 62.0.3202.89,,2017-11-16 12:02:34,2017-11-16 12:12:50,10m - 16.329s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 12:02:34,2017-11-16 12:06:34,3m - 59.946s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 12:06:34,2017-11-16 12:06:42,8.307s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.89,,2017-11-16 12:06:42,2017-11-16 12:06:59,16.950s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RDapprove,Chrome 62.0.3202.89,,2017-11-16 12:06:59,2017-11-16 12:07:32,33.193s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 12:07:32,2017-11-16 12:07:42,9.170s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.89,,2017-11-16 12:07:42,2017-11-16 12:07:59,17.225s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RLRequestMeeting,Chrome 62.0.3202.89,,2017-11-16 12:07:59,2017-11-16 12:08:38,38.890s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 12:08:38,2017-11-16 12:08:47,9.436s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.89,,2017-11-16 12:08:47,2017-11-16 12:09:04,16.950s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.ScheduleMeeting,Chrome 62.0.3202.89,,2017-11-16 12:09:04,2017-11-16 12:09:27,22.495s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 12:09:27,2017-11-16 12:09:35,8.578s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.89,,2017-11-16 12:09:35,2017-11-16 12:09:52,17.038s,PASSED
+Statement - Meeting = true,Chrome 62.0.3202.89,,2017-11-16 12:09:52,2017-11-16 12:09:52,0.000s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RLapprove,Chrome 62.0.3202.89,,2017-11-16 12:09:52,2017-11-16 12:10:17,24.776s,PASSED
+click,Chrome 62.0.3202.89,,2017-11-16 12:10:17,2017-11-16 12:10:17,0.548s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.89,,2017-11-16 12:10:17,2017-11-16 12:10:33,15.758s,PASSED
+Statement - Meeting = false,Chrome 62.0.3202.89,,2017-11-16 12:10:33,2017-11-16 12:10:33,0.001s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.RequestCancelMeeting,Chrome 62.0.3202.89,,2017-11-16 12:10:33,2017-11-16 12:11:02,28.452s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 12:11:02,2017-11-16 12:11:10,8.168s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.89,,2017-11-16 12:11:10,2017-11-16 12:11:27,16.869s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Cancelmeeting,Chrome 62.0.3202.89,,2017-11-16 12:11:27,2017-11-16 12:11:47,20.357s,PASSED
+com.helper.commonfunct.utilities.WOstatus,Chrome 62.0.3202.89,,2017-11-16 12:11:47,2017-11-16 12:11:47,0.147s,PASSED
+Statement - Meeting = false,Chrome 62.0.3202.89,,2017-11-16 12:11:47,2017-11-16 12:11:47,0.000s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 12:11:47,2017-11-16 12:12:50,1m - 2.645s,PASSED
+,,,,,,
+Test Cases/BEP/TC_Withdraw,Chrome 62.0.3202.89,,2017-11-16 12:12:50,2017-11-16 12:17:29,4m - 39.119s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 12:12:50,2017-11-16 12:16:30,3m - 39.776s,PASSED
+com.helper.commonfunct.utilities.login,Chrome 62.0.3202.89,,2017-11-16 12:16:30,2017-11-16 12:16:37,7.324s,PASSED
+com.helper.commonfunct.utilities.search,Chrome 62.0.3202.89,,2017-11-16 12:16:37,2017-11-16 12:16:54,16.751s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.withdraw,Chrome 62.0.3202.89,,2017-11-16 12:16:54,2017-11-16 12:17:26,31.923s,PASSED
+delay,Chrome 62.0.3202.89,,2017-11-16 12:17:26,2017-11-16 12:17:29,3.001s,PASSED
+,,,,,,
+Test Cases/BEP/TC_All_Recall,Chrome 62.0.3202.89,,2017-11-16 12:17:29,2017-11-16 12:28:17,10m - 48.090s,PASSED
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 12:17:30,2017-11-16 12:21:09,3m - 39.849s,PASSED
+Statement - RDRecall = true,Chrome 62.0.3202.89,,2017-11-16 12:21:09,2017-11-16 12:21:09,0.000s,PASSED
+Statement - RLRecall = true,Chrome 62.0.3202.89,,2017-11-16 12:21:09,2017-11-16 12:21:09,0.001s,PASSED
+com.helper.commonfunct.utilities.setprop,Chrome 62.0.3202.89,,2017-11-16 12:21:09,2017-11-16 12:21:09,0.000s,PASSED
+"Statement - While (WOSTATUS.contains(""Pending""))",Chrome 62.0.3202.89,,2017-11-16 12:21:09,2017-11-16 12:21:09,0.000s,NOT_RUN
+callTestCase,Chrome 62.0.3202.89,,2017-11-16 12:21:09,2017-11-16 12:28:17,7m - 7.836s,PASSED
